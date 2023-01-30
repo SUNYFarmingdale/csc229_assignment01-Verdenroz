@@ -15,7 +15,7 @@ public class NewClass {
         
         //Test setters by changing name, ID, and Code
         obj1.setName("Mooath Alrajab");
-        obj1.setID("Teacher's ID");
+        obj1.setID(3203);
         obj1.setCode("CSC 411");
         
         //Test getters and compare if setters worked correctly

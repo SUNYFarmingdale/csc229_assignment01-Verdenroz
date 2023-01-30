@@ -35,26 +35,26 @@ package com.mycompany.csc229_assignment01;
  */
 public class Course {
     //Instance fields
-    private String ID;
+    private int ID;
     private String Name;
     private String Code;
     
     //Default constructor
     public Course(){
-        ID = "R02112686";
+        ID = 2032;
         Name = "Harvey Tseng";
         Code = "CSC 229";
     }
     
     //Overloaded constructor -- create Course object with parameters
-    public Course(String ID, String Name, String Code){
+    public Course(int ID, String Name, String Code){
         this.ID = ID;
         this.Name = Name;
         this.Code = Code;
     }
     
     // change ID
-    public void setID(String id){
+    public void setID(int id){
         ID = id;
     }
     
@@ -69,7 +69,7 @@ public class Course {
     }
     
     // Get ID
-    public String getID(){
+    public int getID(){
         return ID;
     }
     
